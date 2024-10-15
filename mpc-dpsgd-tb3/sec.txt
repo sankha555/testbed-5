@@ -1,0 +1,6 @@
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Epoch 1.1: Loss = 2.30737
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  dt-testbed3 : Receiving error - 1 : Connection reset by peer
+terminate called recursively

@@ -1,0 +1,12 @@
+x = sint(6)
+
+elements = x.split_to_n_summands(4, 3)
+print_ln(len(elements[0]))
+print_ln("E0 = %s %s %s", elements[0][0].reveal(), elements[0][1].reveal(), elements[0][2].reveal())
+print_ln("E1 = %s %s %s", elements[1][0].reveal(), elements[1][1].reveal(), elements[1][2].reveal()) 
+print_ln("E2 = %s %s %s", elements[2][0].reveal(), elements[2][1].reveal(), elements[2][2].reveal())
+print_ln("E3 = %s %s %s", elements[3][0].reveal(), elements[3][1].reveal(), elements[3][2].reveal())
+
+
+#y = elements[0] + elements[1]
+#print_ln("E = %s", y[0].reveal())
